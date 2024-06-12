@@ -12,14 +12,12 @@ This image goes with these versions. [These are automatically updated and tested
 - chromedriver 126.0.6478.55
 - selenium 4.21.0
 
-## Running the demo
+## Deploying the change
 
 ```bash
 $ npm install -g serverless@^3 # skip this line if you have already installed Serverless Framework
 $ export AWS_REGION=ap-northeast-1 # You can specify region or skip this line. us-east-1 will be used by default.
-$ sls create --template-url "https://github.com/umihico/docker-selenium-lambda/tree/main" --path docker-selenium-lambda && cd $_
 $ sls deploy
-$ sls invoke --function demo # Yay! You will get texts of example.com
 ```
 
 ## Public image is available

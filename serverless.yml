@@ -1,4 +1,4 @@
-service: docker-selenium-lambda
+service: docker-selenium-lambda-marble
 
 provider:
   name: aws
